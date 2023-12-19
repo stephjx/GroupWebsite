@@ -1,0 +1,186 @@
+body,head{
+    background-image: url(6574814.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+ 
+        }
+        .img1 {
+            display: flex;
+            margin-top: 100px;
+            border-radius: 50%;
+            
+            width: 400px;
+            height: auto;
+            flex: 1;
+        }
+        .img1:hover {
+            transform: scale(1.5);
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .centered-content {
+            text-align: center;
+            color: white;
+        }
+ 
+        .heading {
+            color: purple;
+            font-size: 2vw;
+            margin-bottom: 50px;
+        }
+        .about-Eleccion{
+            color: purple;
+            background-color: rgb(255, 238, 255, 0.9);  /* Adjust the last value (0.5) for reduced opacity */
+            padding: 50px;
+            border-radius: 50px;
+            border-style: groove;
+            font-size: 30px;
+            text-align: justify;
+            line-height: 1.6;
+            text-align-last: justify;
+            text-align-last: left;
+        }
+        .heading .about-Eleccion{
+            text-align: justify;
+        }   
+        .Eleccion-text  {
+           flex: 1; 
+           margin-right: 800px; /* Center the content on the left side */
+           max-width: 800px; /* Set a maximum width to limit the content width */
+           margin-top: 60px;
+     }
+         @media screen and (max-width: 768px) {
+         .Eleccion-text {
+         margin-right: 0; /* Reset margin for smaller screens */
+         }
+     }
+    .about-Eleccion2{
+        color: purple;
+        background-color: rgb(255, 238, 255, 0.9); /* Adjust the last value (0.5) for reduced opacity */
+        padding: 50px;
+        border-radius: 50px;
+        border-style: groove;
+        font-size: 30px;
+        text-align: justify;
+        line-height: 1.6;
+        text-align-last: justify;
+        text-align-last: left;
+    }
+    .about-Eleccion2 {
+        text-align: justify;
+    }   
+    .Eleccion-text2 {
+       flex: 1; 
+       margin-left: 800px; /* Center the content on the left side */
+       max-width: 800px; /* Set a maximum width to limit the content width */
+       margin-top: 60px;
+ }
+     @media screen and (max-width: 768px) {
+     .Eleccion-text2 {
+     margin-left: 0; /* Reset margin for smaller screens */
+     }
+ }
+ .about-Eleccion3{
+        color: purple;
+        background-color: rgb(255, 238, 255, 0.9);  /* Adjust the last value (0.5) for reduced opacity */
+        padding: 50px;
+        border-radius: 50px;
+        border-style: groove;
+        font-size: 30px;
+        text-align: justify;
+        line-height: 1.6;
+        text-align-last: justify;
+        text-align-last: left;
+    }
+    .about-Eleccion3 {
+        text-align: justify;
+    }   
+    .Eleccion-text3 {
+       flex: 1; 
+       margin-right: 800px; /* Center the content on the left side */
+       max-width: 800px; /* Set a maximum width to limit the content width */
+       margin-top: 60px;
+ }
+     @media screen and (max-width: 768px) {
+     .Eleccion-text3 {
+     margin-right: 0; /* Reset margin for smaller screens */
+     }
+ }
+.slowgif{
+    position: absolute;
+    margin-left: 1100px;
+    bottom: 20%;
+    top: 36%;
+    border-radius: 0;
+    border-style: none;
+    width: 20vw;
+    height: 20vw;
+}
+@media screen and (max-width: 768px) {
+    .slowgif {
+    position: relative;
+    margin-left: 0; /* Reset margin for smaller screens */
+    justify-self: center;
+    }
+   }
+.hacker{
+    position: absolute;
+    bottom: 0%;
+    top: 60%;
+    left: 15%;
+    right: 0;
+    border-radius: 0;
+    border-style: none;
+    width: 20vw;
+    height: 20vw;
+}
+@media screen and (max-width: 768px) {
+    .hacker {
+    position: relative;
+    margin: 0; /* Reset margin for smaller screens */
+    }
+   }
+   .error{
+    position: absolute;
+    bottom: 0%;
+    top: 82%;
+    left: 65%;
+    right: 0;
+    border-radius: 0;
+    border-style: none;
+    width: 20vw;
+    height: 20vw;
+   }
+   @media screen and (max-width: 768px) {
+    .error {
+    position: relative;
+    left: 0;
+    right: 60%;
+    }
+   }
+        nav.hero{
+            position: absolute;
+        }
+        .hero li a {
+            display: flex;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            font-size: 1.5vw;
+            font-weight: bold;
+        }
+        nav.hero a{
+            font-size: 1.5vw;     
+        }
+        @media screen and (max-width: 1000px) {
+        nav.hero{
+            top: 10%;
+            left: 15%;
+            right: 15%;
+        }
+        }
+        

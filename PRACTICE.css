@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+body{
+  background-image: url("6574814.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Extra Condensed", sans-serif;
+  overflow-x: hidden;
+}
+:root {
+  --clr: #fa81ea;
+  --shadow: 2px 4px 3px rgb(0 0 0 / 30%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* text */
+.center {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  text-align: center;
+}
+
+#heading_1 {
+  font-size: calc(1rem + 4vw);
+  font-weight: 700;
+  text-shadow: var(--shadow);
+}
+
+#heading_1 {
+  color: var(--clr);
+  top: 30%;
+}
+
+/* background */
+#image_1,
+#image_2 {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image_1 {
+  background-image: url("6068474.jpg");
+  filter: brightness(50%);
+}
+
+#image_2 {
+  background-image: url("6574814.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Extra Condensed", sans-serif;
+  overflow-x: hidden;
+  -webkit-mask-image: url("circle.svg");
+  mask-image: url("circle.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: 0%;
+  mask-size: 0%;
+
+  animation-name: animate;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+  animation-delay: 1.5s;
+}
+header:hover #image_2 {
+  animation-play-state: running;
+}
+
+@keyframes animate {
+  0% {
+    -webkit-mask-size: 0%;
+    mask-size: 0%;
+  }
+
+  100% {
+    -webkit-mask-size: 400%;
+    mask-size: 400%;
+  }
+}
+.welcome-text {
+  font-size: 4vw; /* Adjust the font size as needed */
+  white-space: nowrap; /* Prevent text from wrapping */
+  border-radius: 20px;
+
+  font-weight: bold;
+}
+.welcome-text {
+  color: purple;
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none; /* Remove the underline */
+}
+@keyframes reveal-text {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.welcome-text::before {
+  content: attr(data-text);
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: reveal-text 8s ease-out forwards; /* Adjust the duration and easing as needed */
+}
+button:hover {
+  cursor: pointer;
+}
+/* Responsive styles */
+
+/* 
+link to images: 
+https://www.pexels.com/photo/green-grass-field-near-body-of-water-under-blue-sky-13064584/ 
+https://www.pexels.com/photo/people-waiting-for-bus-303315/
+*/

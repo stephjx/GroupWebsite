@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="your,keywords,here" />
+    <meta name="author" content="Your Name" />
+    <title>Flex Page Entry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" href="stylecss.css" />
+    <style>
+      body,
+      head {
+        background-image: url(6068474.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      .logo {
+        text-align: center;
+        font-size: 50px;
+      }
+      .homepageanimation {
+        position: absolute;
+        top: 50%;
+        left: 45vw; /* Adjust as needed */
+        transform: translate(0%, -50%);
+      }
+
+      .mewhat {
+        color: white;
+        font-size: 4vw;
+      }
+
+      .auto-type {
+        color: #5ec5d4;
+      }
+
+      @media screen and (max-width: 768px) {
+        .homepageanimation {
+          left: 50%; /* Center align for smaller screens */
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      @keyframes shooting-stars {
+        from {
+          transform: translateX(0);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(100vw);
+          opacity: 1;
+        }
+      }
+
+      .shooting-star {
+        position: absolute;
+        width: 50px; /* Increase the size for better visibility */
+        height: 50px; /* Increase the size for better visibility */
+        background-color: white;
+        animation: shooting-stars linear infinite;
+        border-radius: 50%;
+      }
+
+      .shooting-star:nth-child(1) {
+        top: 10;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 2s;
+      }
+
+      .shooting-star:nth-child(2) {
+        top: 20%;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 3s;
+      }
+
+      .shooting-star:nth-child(3) {
+        top: 30%;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 4s;
+      }
+
+      .shooting-star:nth-child(4) {
+        top: 40%;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 5s;
+      }
+
+      .shooting-star:nth-child(5) {
+        top: 50%;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 6s;
+      }
+      @keyframes shooting-stars {
+        from {
+          transform: translateX(0);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(200vw);
+          opacity: 1;
+        }
+      }
+
+      .shooting-star {
+        position: absolute;
+        width: 50px; /* Increase the size for better visibility */
+        height: 50px; /* Increase the size for better visibility */
+        background-color: white;
+        animation: shooting-stars linear infinite;
+        border-radius: 50%;
+      }
+
+      .shooting-star:nth-child(1) {
+        top: 10;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 2s;
+      }
+
+      .shooting-star:nth-child(2) {
+        top: 20%;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 3s;
+      }
+
+      .shooting-star:nth-child(3) {
+        top: 30%;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 4s;
+      }
+
+      .shooting-star:nth-child(4) {
+        top: 40%;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 5s;
+      }
+
+      .shooting-star:nth-child(5) {
+        top: 50%;
+        left: -1000; /* Adjusted the starting position to the left */
+        animation-duration: 6s;
+      }
+      /* Add more shooting stars as needed */
+      .shooting-star:nth-child(6) {
+        top: 60%;
+        left: -1000px;
+        animation-duration: 7s;
+      }
+
+      .shooting-star:nth-child(7) {
+        top: 70%;
+        left: -1000px;
+        animation-duration: 8s;
+      }
+
+      .shooting-star:nth-child(8) {
+        top: 80%;
+        left: -1000px;
+        animation-duration: 9s;
+      }
+    </style>
+    <nav class="navbar">
+      <ul class="ems">
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="blogentries.html">ITIII Blog Entries Page</a></li>
+        <li><a class="active pinkcolor" href="flexpage.html">Flex Page</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+
+    <div class="homepageanimation">
+      <h1 class="mewhat">Welcome <span class="auto-type"></span></h1>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "to our Flex Page",
+          "I am Dinawanao",
+          "I am Eleccion",
+          "I am Dimalig",
+          "I am Bernabe",
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+
+    <nav class="slide">
+      <ul>
+        <li><a href="DEDB3.html">CLICK PORTFOLIO</a></li>
+      </ul>
+    </nav>
+  </body>
+  <footer>
+    <div class="container">
+      <nav class="containers">
+        <ul>
+          <li><a href="about2.html">About</a></li>
+        </ul>
+      </nav>
+      <section class="linkes">
+        <h6 class="social-links">
+          This is a student portfolio website created by:
+        </h6>
+        <ul>
+          <li>Steven Benedict T. Bernabe</li>
+          <li>Angelie Marie Dinawanao</li>
+          <li>Stephanie Jane Eleccion</li>
+          <li>Emmerson Dimalig</li>
+        </ul>
+      </section>
+      <br />
+      <section>
+        <h6 class="legal-info">Legal Information</h6>
+        <p>Copyright © 2023 Group BATAKERNS. All rights reserved.</p>
+      </section>
+      <br />
+      <section class="contact-info">
+        <h6>Get in Touch</h6>
+        <p>
+          Address: 544F+XW9, Bukidnon State University, Malaybalay, Bukidnon
+        </p>
+        <p>
+          Phone: 09088184444 | Email:
+          <a style="color: white" href="mailto:sunnydayxmoonlight@gmail.com"
+            >sunnydayxmoonlight@gmail.com</a
+          >
+        </p>
+      </section>
+    </div>
+  </footer>
+</html>

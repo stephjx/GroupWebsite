@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Page Offical</title>
+    <link rel="stylesheet" href="PRACTICE.css" />
+    <link rel="stylesheet" href="CHANGEUP.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="stylecss.css" />
+    <link rel="stylesheet" type="text/css" media="screen" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <header>
+      <div id="image_1"></div>
+      <h1 class="center" id="heading_1">CHANGE UP!</h1>
+      <div id="image_2">
+        <nav class="navbar">
+          <ul style="background-color: rgb(255, 238, 255)" class="ems">
+            <li><a style="color: purple" href="index.html">Home Page</a></li>
+            <li>
+              <a style="color: purple" href="blogentries.html"
+                >ITIII Blog Entries Page</a
+              >
+            </li>
+            <li>
+              <a
+                style="color: purple"
+                class="active2 pinkcolor2"
+                href="flexpage.html"
+                >Flex Page</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="center">
+          <p class="welcome-text" data-text="Welcome to our Flex Page"></p>
+          <div class="container">
+            <div id="slide">
+              <div
+                class="item"
+                style="background-image: url(GIANTOT.jpg)"
+              >
+                <div class="content">
+                  <div class="name">Steven Cutie</div>
+                  <div class="des">SHEEEESH</div>
+                  <a href="STEVEN3.html">
+                    <button>See more</button>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="item"
+                style="background-image: url(dsadasdsa.jpg)"
+              >
+                <div class="content">
+                  <div class="name">Marie Cutie</div>
+                  <div class="des">SHEEEESH</div>
+                  <a href="ANGELIE3.html">
+                    <button>See more</button>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="item"
+                style="background-image: url(Ilision.jpg)"
+              >
+                <div class="content">
+                  <div class="name">Stephanie Cutie</div>
+                  <div class="des">SHEEEESH</div>
+                  <a href="STEPHANIE3.html">
+                    <button>See more</button>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="item"
+                style="background-image: url(emmerson.jpg)"
+              >
+                <div class="content">
+                  <div class="name">Emmerson Cutie</div>
+                  <div class="des">SHEEEESH</div>
+                  <a href="EMMERSON3.html">
+                    <button>See more</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+              <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+
+          <script src="CHANGEUP.js"></script>
+        </div>
+      </div>
+    </header>
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+      ScrollReveal().reveal(".navbar", { delay: 2500, origin: "top" });
+      ScrollReveal().reveal(".container", { delay: 2500, origin: "bottom" });
+    </script>
+  </body>
+</html>

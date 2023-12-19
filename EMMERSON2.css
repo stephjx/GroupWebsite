@@ -1,0 +1,294 @@
+body,head{
+    background-image: url(6068474.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+ 
+        }
+        .img1 {
+            display: flex;
+            margin-top: 100px;
+            border-radius: 50%;
+            
+            width: 400px;
+            height: auto;
+            flex: 1;
+        }
+        .img1:hover {
+            transform: scale(1.5);
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .centered-content {
+            text-align: center;
+            color: white;
+        }
+ 
+        .heading {
+            color: white;
+            font-size: 2vw;
+            margin-bottom: 50px;
+        }
+        .about-Dimalig{
+            color: white;
+            background-color: rgba(24, 28, 57, 0.9);  /* Adjust the last value (0.5) for reduced opacity */
+            padding: 50px;
+            border-radius: 50px;
+            border-style: groove;
+            font-size: 30px;
+            text-align: justify;
+            line-height: 1.6;
+            text-align-last: justify;
+            text-align-last: left;
+        }
+        .heading .about-Dimalig{
+            text-align: justify;
+        }   
+        .Dimalig-text  {
+           flex: 1; 
+           margin-right: 800px; /* Center the content on the left side */
+           max-width: 800px; /* Set a maximum width to limit the content width */
+           margin-top: 60px;
+     }
+         @media screen and (max-width: 768px) {
+         .Dimalig-text {
+         margin-right: 0; /* Reset margin for smaller screens */
+         }
+     }
+    .about-Dimalig2{
+        color: white;
+        background-color: rgba(24, 28, 57, 0.9);  /* Adjust the last value (0.5) for reduced opacity */
+        padding: 50px;
+        border-radius: 50px;
+        border-style: groove;
+        font-size: 30px;
+        text-align: justify;
+        line-height: 1.6;
+        text-align-last: justify;
+        text-align-last: left;
+    }
+    .about-Dimalig2 {
+        text-align: justify;
+    }   
+    .Dimalig-text2 {
+       flex: 1; 
+       margin-left: 800px; /* Center the content on the left side */
+       max-width: 800px; /* Set a maximum width to limit the content width */
+       margin-top: 60px;
+ }
+     @media screen and (max-width: 768px) {
+     .Dimalig-text2 {
+     margin-left: 0; /* Reset margin for smaller screens */
+     }
+ }
+ .about-Dimalig3{
+        color: white;
+        background-color: rgba(24, 28, 57, 0.9);  /* Adjust the last value (0.5) for reduced opacity */
+        padding: 50px;
+        border-radius: 50px;
+        border-style: groove;
+        font-size: 30px;
+        text-align: justify;
+        line-height: 1.6;
+        text-align-last: justify;
+        text-align-last: left;
+    }
+    .about-Dimalig3 {
+        text-align: justify;
+    }   
+    .Dimalig-text3 {
+       flex: 1; 
+       margin-right: 800px; /* Center the content on the left side */
+       max-width: 800px; /* Set a maximum width to limit the content width */
+       margin-top: 60px;
+ }
+     @media screen and (max-width: 768px) {
+     .Dimalig-text3 {
+     margin-right: 0; /* Reset margin for smaller screens */
+     }
+ }
+ .about-Dimalig5{
+    color: white;
+    background-color: rgba(24, 28, 57, 0.9);  /* Adjust the last value (0.5) for reduced opacity */
+    padding: 50px;
+    border-radius: 50px;
+    border-style: groove;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.6;
+    text-align-last: justify;
+    text-align-last: left;
+}
+.about-Dimalig5 {
+    text-align: justify;
+}   
+.Dimalig-text5 {
+   flex: 1; 
+   margin-left: 800px; /* Center the content on the left side */
+   max-width: 800px; /* Set a maximum width to limit the content width */
+   margin-top: 60px;
+}
+ @media screen and (max-width: 768px) {
+ .Dimalig-text5 {
+ margin-left: 0; /* Reset margin for smaller screens */
+ }
+}
+.about-Dimalig6{
+    color: white;
+    background-color: rgba(24, 28, 57, 0.9);  /* Adjust the last value (0.5) for reduced opacity */
+    padding: 50px;
+    border-radius: 50px;
+    border-style: groove;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.6;
+    text-align-last: justify;
+    text-align-last: left;
+}
+.about-Dimalig6 {
+    text-align: justify;
+}   
+.Dimalig-text6 {
+   flex: 1; 
+   margin-right: 800px; /* Center the content on the left side */
+   max-width: 800px; /* Set a maximum width to limit the content width */
+   margin-top: 60px;
+}
+ @media screen and (max-width: 768px) {
+ .Dimalig-text6 {
+ margin-right: 0; /* Reset margin for smaller screens */
+ }
+}
+.about-Dimalig7{
+    color: white;
+    background-color: rgba(24, 28, 57, 0.9);  /* Adjust the last value (0.5) for reduced opacity */
+    padding: 50px;
+    border-radius: 50px;
+    border-style: groove;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.6;
+    text-align-last: justify;
+    text-align-last: left;
+}
+.about-Dimalig7 {
+    text-align: justify;
+}   
+.Dimalig-text7 {
+   flex: 1; 
+   margin-left: 800px; /* Center the content on the left side */
+   max-width: 800px; /* Set a maximum width to limit the content width */
+   margin-top: 60px;
+}
+ @media screen and (max-width: 768px) {
+ .Dimalig-text7 {
+ margin-left: 0; /* Reset margin for smaller screens */
+ }
+}
+.slowgif{
+    position: absolute;
+    margin-left: 1100px;
+    bottom: 20%;
+    top: 24%;
+}
+@media screen and (max-width: 768px) {
+    .slowgif {
+    position: relative;
+    margin-left: 0; /* Reset margin for smaller screens */
+    justify-self: center;
+    }
+   }
+.hacker{
+    position: absolute;
+    bottom: 0%;
+    top: 38%;
+    left: 15%;
+    right: 0;
+}
+@media screen and (max-width: 768px) {
+    .hacker {
+    position: relative;
+    margin: 0; /* Reset margin for smaller screens */
+    }
+   }
+   .error{
+    position: absolute;
+    bottom: 0%;
+    top: 47.5%;
+    left: 60%;
+    right: 0;
+   }
+   @media screen and (max-width: 768px) {
+    .error {
+    position: relative;
+    left: 0;
+    right: 60%;
+    }
+   }
+   .computer{
+    position: absolute;
+    bottom: 0%;
+    top: 59%;
+    left: 15%;
+    right: 0;
+   }
+   @media screen and (max-width: 768px) {
+    .computer {
+    position: relative;
+    left: 0;
+    right: 15%;
+    }
+   }
+   .dinosaur{
+    position: absolute;
+    bottom: 0%;
+    top: 73%;
+    left: 63%;
+    right: 0;
+   }
+   @media screen and (max-width: 768px) {
+    .dinosaur {
+    position: relative;
+    left: 10%;
+    right: 63%;
+    }
+   }
+   .htmlcss{
+    position: absolute;
+    bottom: 0%;
+    top: 87%;
+    left: 15%;
+    right: 0;
+   }
+   @media screen and (max-width: 768px) {
+    .htmlcss {
+    position: relative;
+    left: 0;
+    right: 15%;
+    }
+   }
+        nav.hero{
+            position: absolute;
+        }
+        .hero li a {
+            display: flex;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+            font-size: 1.5vw;
+            font-weight: bold;
+        }
+        nav.hero a{
+            font-size: 1.5vw;     
+        }
+        @media screen and (max-width: 1000px) {
+        nav.hero{
+            top: 10%;
+            left: 15%;
+            right: 15%;
+        }
+        }
+        

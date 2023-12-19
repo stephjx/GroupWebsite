@@ -1,0 +1,316 @@
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(6068474.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  font-family: "Proxima Nova Extra Condensed", sans-serif;
+  overflow-x: hidden;
+  background-color: #111;
+}
+
+.logo {
+  text-align: center;
+  font-size: 5vw;
+}
+
+ul.ems {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.ems li {
+  float: left;
+}
+
+.ems li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.ems li a:hover {
+  background-color: #111;
+}
+.navbar a.pinkcolor:hover {
+  background-color: pink;
+}
+.active {
+  background-color: #181c39;
+}
+.active2{
+  background-color: pink;
+  border-style: groove;
+}
+.navbar a.pinkcolor2:hover{
+  background-color: pink;
+}
+.pinkcolor:hover{
+  background-color: pink;
+}
+/* Add media queries for responsiveness */
+@media screen and (max-width: 200px) {
+  ul.ems li a {
+    top: 10%;
+    left: 15%;
+    right: 15%;
+  }
+}
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+nav.slide1 {
+  position: absolute;
+  left: 37.5%;
+}
+.slide1 li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+nav.slide1 a {
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 600px) {
+  nav.slide1 {
+    top: 10%;
+    left: 15%;
+    right: 15%;
+  }
+}
+.heros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.slide2 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.slide2 li {
+  margin-bottom: 20px;
+}
+
+.slide2 a {
+  text-decoration: none;
+  display: flex;
+  align-items: center; /* Center the image and text vertically */
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid white;
+  width: 250px;
+  margin-bottom: 60px;
+  margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+.family-name {
+  font-size: 2vw;
+  color: white;
+  margin-left: 50px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+nav.slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.3) 10%,
+    transparent 50%,
+    transparent 20%
+  );
+  margin-top: 350px;
+}
+
+nav .slide::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  height: 10px;
+}
+
+.slide {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@media screen and (max-width: 100px) {
+  .slide {
+    padding: 5vw 8vw;
+    font-size: 4vw;
+    top: auto;
+  }
+}
+@keyframes slidein {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.slide a {
+  font-size: 4vw;
+}
+
+.logo,
+button {
+  color: #85203e;
+  font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+  background-color: none;
+}
+
+.slide:hover {
+  background-color: #181c39;
+}
+
+.gal:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.img:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: antiquewhite(216, 16, 16, 0);
+}
+
+nav ul li a {
+  color: rgb(243, 236, 239);
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+nav ul li:hover {
+  border: white;
+  border-radius: 30px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Footer Styles */
+@media screen and (height: 768px) {
+  footer {
+    padding: 5vw 8vw;
+    font-size: 1vw;
+    margin-bottom: auto;
+  }
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: -500px;
+  transform: translateX(0);
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containers nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.containers ul li {
+  margin-bottom: 10px;
+}
+
+.containers ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links,
+.legal-info,
+.contact-info h6 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.legal-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.linkes ul li a {
+  color: white;
+}
+
+.linkes ul li a:hover {
+  color: purple;
+}
+
+.linkes li a:hover {
+  color: #111;
+}
+
+.legal-info ul li {
+  margin-bottom: 8px;
+}

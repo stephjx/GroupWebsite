@@ -1,0 +1,225 @@
+body,
+head {
+  background-image: url(6574814.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.img1 {
+  display: flex;
+  margin-top: 100px;
+  border-radius: 50%;
+  width: 400px;
+  height: auto;
+  flex: 1;
+}
+
+.img1:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.centered-content {
+  text-align: center;
+  color: white;
+}
+
+.heading {
+  color: purple;
+  font-size: 2vw;
+  margin-bottom: 50px;
+}
+
+.about-Dinawanao {
+  color: purple;
+  background-color: rgb(255, 238, 255, 0.9);
+  padding: 50px;
+  border-radius: 50px;
+  border-style: groove;
+  font-size: 30px;
+  text-align: justify;
+  line-height: 1.6;
+  text-align-last: justify;
+  text-align-last: left;
+}
+
+.heading .about-Dinawanao {
+  text-align: justify;
+}
+
+.Dinawanao-text {
+  flex: 1;
+  margin-right: 800px;
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .Dinawanao-text {
+    margin-right: 0;
+  }
+}
+
+.about-Dinawanao2 {
+  color: purple;
+  background-color: rgb(255, 238, 255, 0.9);
+  padding: 50px;
+  border-radius: 50px;
+  border-style: groove;
+  font-size: 30px;
+  text-align: justify;
+  line-height: 1.6;
+  text-align-last: justify;
+  text-align-last: left;
+}
+
+.about-Dinawanao2 {
+  text-align: justify;
+}
+
+.Dinawanao-text2 {
+  flex: 1;
+  margin-left: 800px;
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .Dinawanao-text2 {
+    margin-left: 0;
+  }
+}
+
+.about-Dinawanao3 {
+  color: purple;
+  background-color: rgb(255, 238, 255, 0.9);
+  padding: 50px;
+  border-radius: 50px;
+  border-style: groove;
+  font-size: 30px;
+  text-align: justify;
+  line-height: 1.6;
+  text-align-last: justify;
+  text-align-last: left;
+}
+.about-Dinawanao3 {
+  text-align: justify;
+}
+
+.Dinawanao-text3 {
+  flex: 1;
+  margin-right: 800px;
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .Dinawanao-text3 {
+    margin-right: 0;
+  }
+}
+.slowgif {
+  position: absolute;
+  margin-left: 1000px;
+  bottom: 20%;
+  top: 31%;
+  border-radius: 0;
+  border-style: none;
+  width: 30vw;
+  height: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+  .slowgif {
+    position: relative;
+    margin-left: 0;
+    justify-self: center;
+  }
+}
+
+.hacker {
+  position: absolute;
+  bottom: 0%;
+  top: 60%;
+  left: 15%;
+  right: 0;
+  border-radius: 0;
+  border-style: none;
+  width: 25vw;
+  height: 25vw;
+}
+
+@media screen and (max-width: 768px) {
+  .hacker {
+    position: relative;
+    margin: 0;
+  }
+}
+
+.error {
+  position: absolute;
+  bottom: 0%;
+  top: 82%;
+  left: 55%;
+  right: 0;
+  border-radius: 0;
+  border-style: none;
+  width: 20vw;
+  height: 20vw;
+}
+
+@media screen and (max-width: 768px) {
+  .error {
+    position: relative;
+    left: 0;
+    right: 60%;
+  }
+}
+.error2 {
+    position: absolute;
+    bottom: 0%;
+    top: 82%;
+    left: 75%;
+    right: 0;
+    border-radius: 0;
+    border-style: none;
+    width: 20vw;
+    height: 20vw;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .error2 {
+      position: relative;
+      left: 0;
+      right: 60%;
+    }
+  }
+nav.hero {
+  position: absolute;
+}
+
+.hero li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+nav.hero a {
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 1000px) {
+  nav.hero {
+    top: 10%;
+    left: 15%;
+    right: 15%;
+  }
+}
